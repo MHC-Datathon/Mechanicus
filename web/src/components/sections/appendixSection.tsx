@@ -8,7 +8,7 @@ export default function AppendixSection({ id }: { id: string }) {
         Complete Python scripts, SQL queries, and intermediate datasets used in
         the analysis can be accessed on{" "}
         <a
-          href="https://github.com/MaksimPikovskiy/mhc-datathon-2025"
+          href="https://github.com/MHC-Datathon/Mechanicus"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-primary/50"
@@ -24,7 +24,7 @@ export default function AppendixSection({ id }: { id: string }) {
         <ul className="list-none list-inside space-y-1">
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/data"
+              href="https://github.com/MHC-Datathon/Mechanicus/tree/main/data"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -34,7 +34,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/data"
+              href="https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/data"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -44,7 +44,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/api"
+              href="https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/api"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -54,7 +54,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/local-api"
+              href="https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/local-api"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -64,7 +64,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/scripts"
+              href="https://github.com/MHC-Datathon/Mechanicus/tree/main/scripts"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -75,7 +75,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L472"
+              href="https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L472"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -85,7 +85,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L398"
+              href="https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L398"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -95,7 +95,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L348"
+              href="https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L348"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"
@@ -106,7 +106,7 @@ export default function AppendixSection({ id }: { id: string }) {
           </li>
           <li>
             <a
-              href="https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L303"
+              href="https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L303"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary/50"

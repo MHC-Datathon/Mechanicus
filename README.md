@@ -17,7 +17,8 @@ Urban bus systems are vital for mobility, but safety remains a pressing issue. O
 - Josiah R. Bernard
 - Phone Khant Kyaw Swa
 
-### [▶ Watch the overview](https://github.com/MHC-Datathon/Mechanicus/raw/main/video.mp4)
+### [▶ Watch the overview](https://mhc-datathon.github.io/Mechanicus/video.mp4)
+### [Download the overview](https://github.com/MHC-Datathon/Mechanicus/raw/main/video.mp4)
 
 #### Live Version of This Report is available at the following links:
 
@@ -456,19 +457,19 @@ Ultimately, the data suggests a reallocation of the ACE-supplied routes from low
 
 ## Appendix
 
-Complete Python scripts, SQL queries, and intermediate datasets used in the analysis can be accessed on [our GitHub](https://github.com/MaksimPikovskiy/mhc-datathon-2025). This provides full transparency into how raw data became the risk scores displayed on this site.
+Complete Python scripts, SQL queries, and intermediate datasets used in the analysis can be accessed on [our GitHub](https://github.com/MHC-Datathon/Mechanicus). This provides full transparency into how raw data became the risk scores displayed on this site.
 
 ### Resources
 
-- [Data - All intermediate and final datasets used](https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/data)
-- [Data - Data used by the website](https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/data)
-- [API - Fetching from server and local data](https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/api)
-- [API - Fetching from local data](https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/web/src/local-api)
-- [Python Scripts - Grouping ACE/ABLE violations per neighborhood and adding average ridership and speed of buses](https://github.com/MaksimPikovskiy/mhc-datathon-2025/tree/main/scripts)
-- [Risk Calculation for Bus Routes \[App.tsx:472\]](https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L472)
-- [Risk Calculation for Neighborhoods \[App.tsx:398\]](https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L398)
-- [Normalization of ACE/ABLE Violation, Speed, and Ridership Data \[App.tsx:348\]](https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L348)
-- [Normalization of Neighborhood Data \[App.tsx:303\]](https://github.com/MaksimPikovskiy/mhc-datathon-2025/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L303)
+- [Data - All intermediate and final datasets used](https://github.com/MHC-Datathon/Mechanicus/tree/main/data)
+- [Data - Data used by the website](https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/data)
+- [API - Fetching from server and local data](https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/api)
+- [API - Fetching from local data](https://github.com/MHC-Datathon/Mechanicus/tree/main/web/src/local-api)
+- [Python Scripts - Grouping ACE/ABLE violations per neighborhood and adding average ridership and speed of buses](https://github.com/MHC-Datathon/Mechanicus/tree/main/scripts)
+- [Risk Calculation for Bus Routes \[App.tsx:472\]](https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L472)
+- [Risk Calculation for Neighborhoods \[App.tsx:398\]](https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L398)
+- [Normalization of ACE/ABLE Violation, Speed, and Ridership Data \[App.tsx:348\]](https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L348)
+- [Normalization of Neighborhood Data \[App.tsx:303\]](https://github.com/MHC-Datathon/Mechanicus/blob/60558a5e01eea83e16da13ecdd55a71a1cbeae96/web/src/App.tsx#L303)
 
 ### SoQL Query to Get ACE Violations per Bus Route between 2020 and 2025\*
 
