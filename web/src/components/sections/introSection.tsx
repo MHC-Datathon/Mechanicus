@@ -43,7 +43,7 @@ export default function IntroSection({
           <div className="flex flex-row justify-center items-center gap-2">
             <h3 className="font-bold text-xl">Report by</h3>
             <div className="flex flex-row justify-center items-center">
-              <img src="/mechanicus.png" className="w-8 h-8" />
+              <img src="mechanicus.png" className="w-8 h-8" />
               <h3 className="font-bold text-xl">Mechanicus</h3>
             </div>
           </div>
