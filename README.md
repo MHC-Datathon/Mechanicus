@@ -17,10 +17,12 @@ Urban bus systems are vital for mobility, but safety remains a pressing issue. O
 - Josiah R. Bernard
 - Phone Khant Kyaw Swa
 
+### [▶ Watch the overview](https://github.com/MHC-Datathon/Mechanicus/raw/main/video.mp4)
+
 #### Live Version of This Report is available at the following links:
 
 - https://mhc-datathon-2025.vercel.app/
--
+- https://mhc-datathon.github.io/Mechanicus/
 - Live version allows you to play around with weights of risk factors, as well as enabling or disabling said risk factors
 
 ## Dictionary of Terms

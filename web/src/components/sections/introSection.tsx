@@ -57,7 +57,7 @@ export default function IntroSection({
       </div>
       <div className="space-y-8">
         <div className="aspect-video bg-gray-100 rounded-2xl flex items-center justify-center">
-          <span className="text-gray-500">[You are watching the video!]</span>
+          <video src="video.mp4" controls className="rounded-2xl"/>
         </div>
         <div
           className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm hover:scale-101 cursor-pointer"
