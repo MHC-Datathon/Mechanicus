@@ -134,12 +134,12 @@ inRouteList is a variable containing the set of ACE/ABLE Enforced Bus Routes we 
 Returns ridership totals plus transfer total for the list of enforced routes, which is combined into total_riders on the website.
 
     SELECT
-      route_id,
-      SUM(total_mileage) AS total_mileage,
-      SUM(total_operating_time) AS total_operating_time,
-      AVG(average_speed) AS average_speed
-    WHERE route_id IN (${inRouteList})
-    GROUP BY route_id
+      bus_route,
+      SUM(ridership) AS total_ridership,
+      SUM(transfers) AS total_transfers
+    WHERE (ridership != 0 OR transfers != 0)
+      AND WHERE bus_route IN (\${inRouteList})
+    GROUP BY bus_route
 
 \*We limited main dataset to 2020-2025 due to Ridership and Speeds being in that range.
 
@@ -499,12 +499,12 @@ inRouteList is a variable containing the set of ACE/ABLE Enforced Bus Routes we 
 inRouteList is a variable containing the set of ACE/ABLE Enforced Bus Routes we mentioned earlier.
 
     SELECT
-      route_id,
-      SUM(total_mileage) AS total_mileage,
-      SUM(total_operating_time) AS total_operating_time,
-      AVG(average_speed) AS average_speed
-    WHERE route_id IN (${inRouteList})
-    GROUP BY route_id
+      bus_route,
+      SUM(ridership) AS total_ridership,
+      SUM(transfers) AS total_transfers
+    WHERE (ridership != 0 OR transfers != 0)
+      AND WHERE bus_route IN (\${inRouteList})
+    GROUP BY bus_route
 
 \*We limited main dataset to 2020-2025 due to Ridership and Speeds being in that range.
 
